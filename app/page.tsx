@@ -1,21 +1,5 @@
-import { GetServerSideProps } from 'next';
+const HomePage = () => {
+  return <div>HomePage</div>;
+};
 
-const page = () => {
-  return (
-    <div>
-      Enter
-    </div>
-  );
-}
-
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-
-
-  return {
-    props:{
-
-    }
-  }
-}
-
-export default page
+export default HomePage;
